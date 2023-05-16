@@ -1,6 +1,6 @@
 import React from "react";
 
-function AddTaskForm(newTask, handleInputChange, handleSubmit) {
+function AddTaskForm({ newTask, handleInputChange, handleSubmit }) {
   return (
     <form onSubmit={handleSubmit} className="form">
       <label htmlFor="newitem">Add to the todo list</label>
